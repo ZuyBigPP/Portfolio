@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="hero">
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I'm a front-end developer passionate about creating beautiful and functional websites.</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </header>
+    
+    <section id="about" class="reveal">
+        <h2>About Me</h2>
+        <p>Hi! I'm Duy Nguyễn, a front-end developer that love making appealing and functional websites. I have experience in HTML, CSS, JavaScript, and various frameworks.</p>
+        <h3>Skills</h3>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript (ES6+)</li>
+            <li>React</li>
+            <li>Git & GitHub</li>
+            <li>Responsive Design</li>
+        </ul>
+        <h3>Experience</h3>
+        <p>Various websites projects, Web Developer Intern at RIPT-Phòng CNS</p>
+    </section>
+    
+    <section id="projects" class="reveal">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Typing speed test</h3>
+            <p>A web where you can practice to improve your typing speed, accuracy and precision.</p>
+            <p><strong>Technologies used:</strong> HTML, CSS, JavaScript</p>
+            <a href="https://github.com/ZuyBigPP/TypingSpeedTestCuoiKi.git" target="_blank">View on GitHub</a> | <a href="https://zuybigpp.github.io/TypingSpeedTestCuoiKi/" target="_blank">Live Demo</a>
+        </div>
+        <div class="project">
+            <h3>Alarm count-down timer</h3>
+            <p>A count-down timer that plays music when time is up and also have audio visualization.</p>
+            <p><strong>Technologies used:</strong>HTML, CSS, Javascript</p>
+            <a href="https://github.com/ZuyBigPP/RIPT1302-20232-04-MSV-B23DCCC048-MidTerm2.git" target="_blank">View on GitHub</a> | <a href="https://zuybigpp.github.io/RIPT1302-20232-04-MSV-B23DCCC048-MidTerm2/" target="_blank">Live Demo</a>
+        </div>
+        <div class="project">
+            <h3>Weather checking websites</h3>
+            <p>Allow you to check the weather of a city in real time.</p>
+            <p><strong>Technologies used:</strong>HTML, CSS, Javascript</p>
+            <a href="https://github.com/ZuyBigPP/RIPT1302-20232-04-TH-01-01-04-2024-MSV-B23DCCC048-Bai-03.git" target="_blank">View on GitHub</a> | <a href="https://zuybigpp.github.io/RIPT1302-20232-04-TH-01-01-04-2024-MSV-B23DCCC048-Bai-03/" target="_blank">Live Demo</a>
+        </div>
+    </section>
+    
+    <section id="contact" class="reveal">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        <div>
+            <a href="https://www.linkedin.com/in/l%C6%B0u-nh%E1%BA%ADt-duy-nguy%E1%BB%85n-ab51482b4/" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/ZuyBigPP" target="_blank">GitHub</a> |
+            <a href="mailto:your.email@example.com">Email</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
